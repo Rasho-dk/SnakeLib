@@ -20,7 +20,7 @@ namespace SnakeLib.States
         public SnakeStateMachine()
         {
             State = new Upstate() ;
-            Move = new Move(){X = 10, Y = 14};
+            Move = new Move(){X = 25, Y = 15};
 
 
         }
