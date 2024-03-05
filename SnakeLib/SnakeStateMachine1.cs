@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using SnakeLib.States.InterfaceState;
 
-namespace SnakeLib.States
+namespace SnakeLib
 {
-    public class SnakeStateMachine 
+    public class SnakeStateMachine
     {
         public Move Move { get; set; }
 
@@ -19,8 +19,8 @@ namespace SnakeLib.States
         /// </summary>
         public SnakeStateMachine()
         {
-            State = new Upstate() ;
-            Move = new Move(){X = 25, Y = 15};
+            State = new Upstate();
+            Move = new Move() { X = 25, Y = 15 };
 
 
         }

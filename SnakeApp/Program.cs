@@ -1,6 +1,6 @@
 ﻿
 
-using SnakeLib.States;
+using SnakeLib;
 
 SnakeStateMachine snake = new SnakeStateMachine();
 
